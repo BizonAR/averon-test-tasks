@@ -1,0 +1,64 @@
+# Исключаем исполняемые файлы и сборочные артефакты
+*.exe
+*.dll
+*.bpl
+*.dcu
+*.dcp
+*.dsk
+*.tds
+*.obj
+*.map
+*.lib
+*.o
+*.so
+*.a
+
+# Исключаем временные файлы
+*.~*
+*.#*
+*.identcache
+*.local
+*.tvsconfig
+*.bak
+*.dproj.local
+*.dproj.bak
+*.identcache
+*.stat
+*.cfg
+*.dsk
+*.tvsconfig
+
+# Исключаем файлы сборки C++ Builder
+__history/
+__recovery/
+Win32/
+Win64/
+OSX32/
+OSX64/
+Android/
+iOSDevice32/
+iOSDevice64/
+iOSSimulator/
+Linux64/
+CBuilder/
+
+# Исключаем файлы сборки CodeGear
+*.tds
+*.csm
+*.cs?
+*.ddp
+*.cfg
+
+# Исключаем промежуточные файлы RAD Studio
+*.bdsproj.local
+*.groupproj.local
+*.local
+*.bdsproj.history
+*.dproj.history
+*.identcache
+*.stat
+
+# Исключаем временные каталоги
+__history/
+__recovery/
+__recovery_tmp/
